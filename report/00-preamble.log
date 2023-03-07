@@ -1,0 +1,1952 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.12.11)  11 DEC 2022 11:02
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**00-preamble.tex
+(./00-preamble.tex
+LaTeX2e <2021-11-15> patch level 1
+L3 programming layer <2022-01-21>
+
+! LaTeX Error: \usepackage before \documentclass.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 \usepackage[english,russian]{
+                                 babel}
+\usepackage may only appear in the document preamble, i.e.,
+between \documentclass and \begin{document}.
+
+
+! LaTeX Error: \usepackage before \documentclass.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2 \usepackage[T2A]{
+                     fontenc}
+\usepackage may only appear in the document preamble, i.e.,
+between \documentclass and \begin{document}.
+
+
+! LaTeX Error: \usepackage before \documentclass.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 \usepackage[utf8]{
+                      inputenc}
+\usepackage may only appear in the document preamble, i.e.,
+between \documentclass and \begin{document}.
+
+
+! LaTeX Error: \usepackage before \documentclass.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.8 \usepackage{
+                indentfirst}
+\usepackage may only appear in the document preamble, i.e.,
+between \documentclass and \begin{document}.
+
+
+! LaTeX Error: \usepackage before \documentclass.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9 \usepackage{
+                graphicx}
+\usepackage may only appear in the document preamble, i.e.,
+between \documentclass and \begin{document}.
+
+
+! LaTeX Error: \usepackage before \documentclass.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.10 \usepackage{
+                 multirow}
+\usepackage may only appear in the document preamble, i.e.,
+between \documentclass and \begin{document}.
+
+
+! LaTeX Error: \usepackage before \documentclass.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.11 \usepackage{
+                 geometry}
+\usepackage may only appear in the document preamble, i.e.,
+between \documentclass and \begin{document}.
+
+
+! LaTeX Error: \usepackage before \documentclass.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.12 \usepackage{
+                 setspace}
+\usepackage may only appear in the document preamble, i.e.,
+between \documentclass and \begin{document}.
+
+
+! LaTeX Error: \usepackage before \documentclass.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.13 \usepackage{
+                 enumitem}
+\usepackage may only appear in the document preamble, i.e.,
+between \documentclass and \begin{document}.
+
+
+! LaTeX Error: \usepackage before \documentclass.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.14 \usepackage{
+                 booktabs}
+\usepackage may only appear in the document preamble, i.e.,
+between \documentclass and \begin{document}.
+
+
+! LaTeX Error: \usepackage before \documentclass.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.15 \usepackage{
+                 amsmath}
+\usepackage may only appear in the document preamble, i.e.,
+between \documentclass and \begin{document}.
+
+
+! LaTeX Error: \usepackage before \documentclass.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.16 \usepackage{
+                 soulpos}
+\usepackage may only appear in the document preamble, i.e.,
+between \documentclass and \begin{document}.
+
+
+! LaTeX Error: \usepackage before \documentclass.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 \usepackage{
+                 array}
+\usepackage may only appear in the document preamble, i.e.,
+between \documentclass and \begin{document}.
+
+
+! LaTeX Error: \usepackage before \documentclass.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.18 \usepackage{
+                 float}
+\usepackage may only appear in the document preamble, i.e.,
+between \documentclass and \begin{document}.
+
+
+! LaTeX Error: \usepackage before \documentclass.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 \usepackage{
+                 soul}
+\usepackage may only appear in the document preamble, i.e.,
+between \documentclass and \begin{document}.
+
+
+! LaTeX Error: \usepackage before \documentclass.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.20 \usepackage{
+                 ulem}
+\usepackage may only appear in the document preamble, i.e.,
+between \documentclass and \begin{document}.
+
+! Undefined control sequence.
+l.22 \newgeometry
+                 {top=2cm,bottom=2cm,right=1cm,left=3cm}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.22 \newgeometry{t
+                   op=2cm,bottom=2cm,right=1cm,left=3cm}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no t in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no 2 in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no 2 in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no 3 in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no m in font nullfont!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 22--23
+[] 
+ []
+
+
+! LaTeX Error: \usepackage before \documentclass.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.24 \usepackage{
+                 lastpage}
+\usepackage may only appear in the document preamble, i.e.,
+between \documentclass and \begin{document}.
+
+
+! LaTeX Error: \usepackage before \documentclass.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.25 \usepackage{
+                 totcount}
+\usepackage may only appear in the document preamble, i.e.,
+between \documentclass and \begin{document}.
+
+! Undefined control sequence.
+l.26 \newtotcounter
+                   {tableqty}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.26 \newtotcounter{t
+                     ableqty}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no t in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no q in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no y in font nullfont!
+! Undefined control sequence.
+l.27 \newtotcounter
+                   {bibqty}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no b in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no q in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no y in font nullfont!
+! Undefined control sequence.
+l.28 \regtotcounter
+                   {figure}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no f in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 26--29
+[]
+ []
+
+
+! LaTeX Error: \usepackage before \documentclass.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.30 ...ck=false,font=normalsize,labelsep=endash]{
+                                                  caption}
+\usepackage may only appear in the document preamble, i.e.,
+between \documentclass and \begin{document}.
+
+
+! LaTeX Error: \usepackage before \documentclass.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.32 \usepackage[numbers]{
+                          natbib}
+\usepackage may only appear in the document preamble, i.e.,
+between \documentclass and \begin{document}.
+
+! Undefined control sequence.
+l.33 \bibpunct
+              {}{}{,}{s}{}{,}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.33 \bibpunct{}{}{,
+                    }{s}{}{,}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no , in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no , in font nullfont!
+
+! LaTeX Error: Command \bibnumfmt undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.34 \renewcommand*{\bibnumfmt}
+                               [1]{#1.}
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Command \bibsection undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.35 \renewcommand{\bibsection}
+                               {\chapter*{\hfill{}СПИСОК ИСПОЛЬ�...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 33--36
+[]
+ []
+
+
+! LaTeX Error: \usepackage before \documentclass.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.37 \usepackage{
+                 tocloft}
+\usepackage may only appear in the document preamble, i.e.,
+between \documentclass and \begin{document}.
+
+
+! LaTeX Error: Command \cftchapfont undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.39 \renewcommand{\cftchapfont}
+                                {\normalfont}
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Command \cfttoctitlefont undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.40 \renewcommand{\cfttoctitlefont}
+                                    {\hfill\bfseries}
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Command \cftaftertoctitle undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.41 \renewcommand{\cftaftertoctitle}
+                                     {\hfill}
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Command \cftchappagefont undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.42 \renewcommand{\cftchappagefont}
+                                    {\normalfont}
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Command \cftchapleader undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.43 \renewcommand{\cftchapleader}
+                                  {\cftdotfill{\cftdotsep}}
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+<argument> \cftbeforetoctitleskip 
+                                  
+l.44 \setlength{\cftbeforetoctitleskip}{-2em}
+                                             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.44 \setlength{\cftbeforetoctitleskip}{-2em}
+                                             
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no - in font nullfont!
+Missing character: There is no 2 in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no m in font nullfont!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 44--45
+[] 
+ []
+
+! Undefined control sequence.
+l.47 \addto
+           \captionsrussian{\renewcommand{\contentsname}{ОГЛАВЛЕНИ�...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.47 \addto\captionsrussian
+                           {\renewcommand{\contentsname}{ОГЛАВЛЕНИ�...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Command \contentsname undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.47 ...ptionsrussian{\renewcommand{\contentsname}
+                                                  {ОГЛАВЛЕНИЕ\hfill}}
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: \usepackage before \documentclass.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.50 \usepackage{
+                 titlesec}
+\usepackage may only appear in the document preamble, i.e.,
+between \documentclass and \begin{document}.
+
+! Undefined control sequence.
+l.52 \titleformat
+                 {\chapter}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.52 \titleformat{\chapter
+                          }
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: The font size command \normalsize is not defined:
+               there is probably something wrong with the class file.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.53 {\bfseries\normalsize
+                          }
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.54 {\hspace{1.25cm}
+                     \thechapter\quad}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+l.54 {\hspace{1.25cm}\thechapter
+                                \quad}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no m in font nullfont!
+! Undefined control sequence.
+l.57 \titlespacing
+                  *{\chapter}{0cm}{-1.25cm}{0cm}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no * in font nullfont!
+! Undefined control sequence.
+l.57 \titlespacing*{\chapter
+                            }{0cm}{-1.25cm}{0cm}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no - in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 2 in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no m in font nullfont!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 54--58
+[]
+ []
+
+! Undefined control sequence.
+l.59 \titleformat
+                 {\section}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.59 \titleformat{\section
+                          }
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: The font size command \normalsize is not defined:
+               there is probably something wrong with the class file.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.60 {\bfseries\normalsize
+                          }
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.61 {\hspace{1.25cm}
+                     \thesection\quad}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+l.61 {\hspace{1.25cm}\thesection
+                                \quad}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no m in font nullfont!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 61--64
+[]
+ []
+
+! Undefined control sequence.
+l.65 \titleformat
+                 {\subsection}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.65 \titleformat{\subsection
+                             }
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: The font size command \normalsize is not defined:
+               there is probably something wrong with the class file.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.66 {\bfseries\normalsize
+                          }
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.67 {\hspace{1.25cm}
+                     \thesubsection\quad}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+l.67 {\hspace{1.25cm}\thesubsection
+                                   \quad}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no m in font nullfont!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 67--70
+[]
+ []
+
+
+! LaTeX Error: \usepackage before \documentclass.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.77 \usepackage{
+                 listings}
+\usepackage may only appear in the document preamble, i.e.,
+between \documentclass and \begin{document}.
+
+! Undefined control sequence.
+l.79 \lstset
+            {
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.80     l
+          anguage=python,
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no l in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no y in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no y in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no = in font nullfont!
+! Undefined control sequence.
+l.81     basicstyle= \footnotesize
+                                  \ttfamily,
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.86     numberstyle=\footnotesize
+                                  ,
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Environment russian undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.93     escapebegin=\begin{russian}
+                                    \commentfont,
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Undefined control sequence.
+l.93     escapebegin=\begin{russian}\commentfont
+                                                ,
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: \begin{document} ended by \end{russian}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.94     escapeend=\end{russian}
+                                ,
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Unicode character а (U+0430)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.103     {а
+             }{{\selectfont\char224}}1
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+Missing character: There is no � in font cmtt10!
+
+! LaTeX Error: Unicode character б (U+0431)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.104     {б
+             }{{\selectfont\char225}}1
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+Missing character: There is no � in font cmtt10!
+
+! LaTeX Error: Unicode character в (U+0432)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.105     {в
+             }{{\selectfont\char226}}1
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+Missing character: There is no � in font cmtt10!
+
+! LaTeX Error: Unicode character г (U+0433)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.106     {г
+             }{{\selectfont\char227}}1
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+Missing character: There is no � in font cmtt10!
+
+! LaTeX Error: Unicode character д (U+0434)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.107     {д
+             }{{\selectfont\char228}}1
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+Missing character: There is no � in font cmtt10!
+
+! LaTeX Error: Unicode character е (U+0435)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.108     {е
+             }{{\selectfont\char229}}1
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+Missing character: There is no � in font cmtt10!
+
+! LaTeX Error: Unicode character ё (U+0451)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.109     {ё
+             }{{\"e}}1
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! LaTeX Error: Unicode character ж (U+0436)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.110     {ж
+             }{{\selectfont\char230}}1
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+Missing character: There is no � in font cmtt10!
+
+! LaTeX Error: Unicode character з (U+0437)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.111     {з
+             }{{\selectfont\char231}}1
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+Missing character: There is no � in font cmtt10!
+
+! LaTeX Error: Unicode character и (U+0438)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.112     {и
+             }{{\selectfont\char232}}1
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+Missing character: There is no � in font cmtt10!
+
+! LaTeX Error: Unicode character й (U+0439)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.113     {й
+             }{{\selectfont\char233}}1
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+Missing character: There is no � in font cmtt10!
+
+! LaTeX Error: Unicode character к (U+043A)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.114     {к
+             }{{\selectfont\char234}}1
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+Missing character: There is no � in font cmtt10!
+
+! LaTeX Error: Unicode character л (U+043B)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.115     {л
+             }{{\selectfont\char235}}1
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+Missing character: There is no � in font cmtt10!
+
+! LaTeX Error: Unicode character м (U+043C)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.116     {м
+             }{{\selectfont\char236}}1
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+Missing character: There is no � in font cmtt10!
+
+! LaTeX Error: Unicode character н (U+043D)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.117     {н
+             }{{\selectfont\char237}}1
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+Missing character: There is no � in font cmtt10!
+
+! LaTeX Error: Unicode character о (U+043E)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.118     {о
+             }{{\selectfont\char238}}1
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+Missing character: There is no � in font cmtt10!
+
+! LaTeX Error: Unicode character п (U+043F)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.119     {п
+             }{{\selectfont\char239}}1
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+Missing character: There is no � in font cmtt10!
+
+! LaTeX Error: Unicode character р (U+0440)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.120     {р
+             }{{\selectfont\char240}}1
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+Missing character: There is no � in font cmtt10!
+
+! LaTeX Error: Unicode character с (U+0441)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.121     {с
+             }{{\selectfont\char241}}1
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+Missing character: There is no � in font cmtt10!
+
+! LaTeX Error: Unicode character т (U+0442)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.122     {т
+             }{{\selectfont\char242}}1
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+Missing character: There is no � in font cmtt10!
+
+! LaTeX Error: Unicode character у (U+0443)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.123     {у
+             }{{\selectfont\char243}}1
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+Missing character: There is no � in font cmtt10!
+
+! LaTeX Error: Unicode character ф (U+0444)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.124     {ф
+             }{{\selectfont\char244}}1
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+Missing character: There is no � in font cmtt10!
+
+! LaTeX Error: Unicode character х (U+0445)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.125     {х
+             }{{\selectfont\char245}}1
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+Missing character: There is no � in font cmtt10!
+
+! LaTeX Error: Unicode character ц (U+0446)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.126     {ц
+             }{{\selectfont\char246}}1
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+Missing character: There is no � in font cmtt10!
+
+! LaTeX Error: Unicode character ч (U+0447)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.127     {ч
+             }{{\selectfont\char247}}1
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+Missing character: There is no � in font cmtt10!
+
+! LaTeX Error: Unicode character ш (U+0448)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.128     {ш
+             }{{\selectfont\char248}}1
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+Missing character: There is no � in font cmtt10!
+
+! LaTeX Error: Unicode character щ (U+0449)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.129     {щ
+             }{{\selectfont\char249}}1
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+Missing character: There is no � in font cmtt10!
+
+! LaTeX Error: Unicode character ъ (U+044A)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.130     {ъ
+             }{{\selectfont\char250}}1
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+Missing character: There is no � in font cmtt10!
+
+! LaTeX Error: Unicode character ы (U+044B)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.131     {ы
+             }{{\selectfont\char251}}1
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+Missing character: There is no � in font cmtt10!
+
+! LaTeX Error: Unicode character ь (U+044C)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.132     {ь
+             }{{\selectfont\char252}}1
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+Missing character: There is no � in font cmtt10!
+
+! LaTeX Error: Unicode character э (U+044D)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.133     {э
+             }{{\selectfont\char253}}1
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+Missing character: There is no � in font cmtt10!
+
+! LaTeX Error: Unicode character ю (U+044E)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.134     {ю
+             }{{\selectfont\char254}}1
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+Missing character: There is no � in font cmtt10!
+
+! LaTeX Error: Unicode character я (U+044F)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.135     {я
+             }{{\selectfont\char255}}1
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+Missing character: There is no � in font cmtt10!
+
+! LaTeX Error: Unicode character А (U+0410)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.136     {А
+             }{{\selectfont\char192}}1
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+Missing character: There is no � in font cmtt10!
+
+! LaTeX Error: Unicode character Б (U+0411)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.137     {Б
+             }{{\selectfont\char193}}1
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+Missing character: There is no � in font cmtt10!
+
+! LaTeX Error: Unicode character В (U+0412)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.138     {В
+             }{{\selectfont\char194}}1
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+Missing character: There is no � in font cmtt10!
+
+! LaTeX Error: Unicode character Г (U+0413)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.139     {Г
+             }{{\selectfont\char195}}1
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+Missing character: There is no � in font cmtt10!
+
+! LaTeX Error: Unicode character Д (U+0414)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.140     {Д
+             }{{\selectfont\char196}}1
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+Missing character: There is no � in font cmtt10!
+
+! LaTeX Error: Unicode character Е (U+0415)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.141     {Е
+             }{{\selectfont\char197}}1
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+Missing character: There is no � in font cmtt10!
+
+! LaTeX Error: Unicode character Ё (U+0401)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.142     {Ё
+             }{{\"E}}1
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! LaTeX Error: Unicode character Ж (U+0416)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.143     {Ж
+             }{{\selectfont\char198}}1
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+Missing character: There is no � in font cmtt10!
+
+! LaTeX Error: Unicode character З (U+0417)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.144     {З
+             }{{\selectfont\char199}}1
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+Missing character: There is no � in font cmtt10!
+
+! LaTeX Error: Unicode character И (U+0418)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.145     {И
+             }{{\selectfont\char200}}1
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+Missing character: There is no � in font cmtt10!
+
+! LaTeX Error: Unicode character Й (U+0419)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.146     {Й
+             }{{\selectfont\char201}}1
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+Missing character: There is no � in font cmtt10!
+
+! LaTeX Error: Unicode character К (U+041A)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.147     {К
+             }{{\selectfont\char202}}1
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+Missing character: There is no � in font cmtt10!
+
+! LaTeX Error: Unicode character Л (U+041B)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.148     {Л
+             }{{\selectfont\char203}}1
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+Missing character: There is no � in font cmtt10!
+
+! LaTeX Error: Unicode character М (U+041C)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.149     {М
+             }{{\selectfont\char204}}1
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+Missing character: There is no � in font cmtt10!
+
+! LaTeX Error: Unicode character Н (U+041D)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.150     {Н
+             }{{\selectfont\char205}}1
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+Missing character: There is no � in font cmtt10!
+
+! LaTeX Error: Unicode character О (U+041E)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.151     {О
+             }{{\selectfont\char206}}1
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+Missing character: There is no � in font cmtt10!
+
+! LaTeX Error: Unicode character П (U+041F)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.152     {П
+             }{{\selectfont\char207}}1
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+Missing character: There is no � in font cmtt10!
+
+! LaTeX Error: Unicode character Р (U+0420)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.153     {Р
+             }{{\selectfont\char208}}1
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+Missing character: There is no � in font cmtt10!
+
+! LaTeX Error: Unicode character С (U+0421)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.154     {С
+             }{{\selectfont\char209}}1
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+Missing character: There is no � in font cmtt10!
+
+! LaTeX Error: Unicode character Т (U+0422)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.155     {Т
+             }{{\selectfont\char210}}1
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+Missing character: There is no � in font cmtt10!
+
+! LaTeX Error: Unicode character У (U+0423)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.156     {У
+             }{{\selectfont\char211}}1
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+Missing character: There is no � in font cmtt10!
+
+! LaTeX Error: Unicode character Ф (U+0424)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.157     {Ф
+             }{{\selectfont\char212}}1
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+Missing character: There is no � in font cmtt10!
+
+! LaTeX Error: Unicode character Х (U+0425)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.158     {Х
+             }{{\selectfont\char213}}1
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+Missing character: There is no � in font cmtt10!
+
+! LaTeX Error: Unicode character Ц (U+0426)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.159     {Ц
+             }{{\selectfont\char214}}1
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+Missing character: There is no � in font cmtt10!
+
+! LaTeX Error: Unicode character Ч (U+0427)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.160     {Ч
+             }{{\selectfont\char215}}1
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+Missing character: There is no � in font cmtt10!
+
+! LaTeX Error: Unicode character Ш (U+0428)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.161     {Ш
+             }{{\selectfont\char216}}1
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+Missing character: There is no � in font cmtt10!
+
+! LaTeX Error: Unicode character Щ (U+0429)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.162     {Щ
+             }{{\selectfont\char217}}1
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+Missing character: There is no � in font cmtt10!
+
+! LaTeX Error: Unicode character Ъ (U+042A)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.163     {Ъ
+             }{{\selectfont\char218}}1
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+Missing character: There is no � in font cmtt10!
+
+! LaTeX Error: Unicode character Ы (U+042B)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.164     {Ы
+             }{{\selectfont\char219}}1
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+Missing character: There is no � in font cmtt10!
+
+! LaTeX Error: Unicode character Ь (U+042C)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.165     {Ь
+             }{{\selectfont\char220}}1
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+Missing character: There is no � in font cmtt10!
+
+! LaTeX Error: Unicode character Э (U+042D)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.166     {Э
+             }{{\selectfont\char221}}1
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+Missing character: There is no � in font cmtt10!
+
+! LaTeX Error: Unicode character Ю (U+042E)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.167     {Ю
+             }{{\selectfont\char222}}1
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+Missing character: There is no � in font cmtt10!
+
+! LaTeX Error: Unicode character Я (U+042F)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.168     {Я
+             }{{\selectfont\char223}}1
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+Missing character: There is no � in font cmtt10!
+
+! LaTeX Error: Unicode character і (U+0456)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.169     {і
+             }{{\selectfont\char105}}1
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! LaTeX Error: Unicode character ї (U+0457)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.170     {ї
+             }{{\selectfont\char168}}1
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+Missing character: There is no � in font cmtt10!
+
+! LaTeX Error: Unicode character є (U+0454)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.171     {є
+             }{{\selectfont\char185}}1
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+Missing character: There is no � in font cmtt10!
+
+! LaTeX Error: Unicode character ґ (U+0491)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.172     {ґ
+             }{{\selectfont\char160}}1
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+Missing character: There is no � in font cmtt10!
+
+! LaTeX Error: Unicode character І (U+0406)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.173     {І
+             }{{\selectfont\char73}}1
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! LaTeX Error: Unicode character Ї (U+0407)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.174     {Ї
+             }{{\selectfont\char136}}1
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+Missing character: There is no � in font cmtt10!
+
+! LaTeX Error: Unicode character Є (U+0404)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.175     {Є
+             }{{\selectfont\char153}}1
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+Missing character: There is no � in font cmtt10!
+
+! LaTeX Error: Unicode character Ґ (U+0490)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.176     {Ґ
+             }{{\selectfont\char128}}1
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+Missing character: There is no � in font cmtt10!
+)
+! Emergency stop.
+<*> 00-preamble.tex
+                   
+*** (job aborted, no legal \end found)
+
+ 
+Here is how much of TeX's memory you used:
+ 118 strings out of 479680
+ 1079 string characters out of 5886681
+ 286017 words of memory out of 5000000
+ 18180 multiletter control sequences out of 15000+600000
+ 469735 words of font info for 30 fonts, out of 8000000 for 9000
+ 452 hyphenation exceptions out of 8191
+ 13i,1n,12p,146b,68s stack positions out of 5000i,500n,10000p,200000b,80000s
+!  ==> Fatal error occurred, no output PDF file produced!

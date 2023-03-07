@@ -1,0 +1,33 @@
+\babel@toc {russian}{}\relax 
+\contentsline {chapter}{РЕФЕРАТ}{5}{}%
+\contentsline {chapter}{ВВЕДЕНИЕ}{6}{}%
+\contentsline {chapter}{\numberline {1}Аналитический раздел}{7}{}%
+\contentsline {section}{\numberline {1.1}Руткиты}{7}{}%
+\contentsline {subsection}{\numberline {1.1.1}Руткиты пользовательского уровня}{7}{}%
+\contentsline {subsection}{\numberline {1.1.2}Руткиты уровня ядра}{7}{}%
+\contentsline {subsection}{\numberline {1.1.3}Буткиты}{8}{}%
+\contentsline {subsection}{\numberline {1.1.4}Аппаратные руткиты}{8}{}%
+\contentsline {section}{\numberline {1.2}Загружаемый модуль ядра}{8}{}%
+\contentsline {section}{\numberline {1.3}Системные вызовы}{9}{}%
+\contentsline {subsection}{\numberline {1.3.1}Системные вызовы и библиотечные функции}{10}{}%
+\contentsline {section}{\numberline {1.4}Таблица системных вызовов}{10}{}%
+\contentsline {section}{\numberline {1.5}Анализ способов перехвата функций в ядре}{10}{}%
+\contentsline {subsection}{\numberline {1.5.1}Модификация таблицы системных вызовов}{11}{}%
+\contentsline {subsection}{\numberline {1.5.2}Kernel tracepoints}{11}{}%
+\contentsline {subsection}{\numberline {1.5.3}Kprobes}{12}{}%
+\contentsline {subsection}{\numberline {1.5.4}ftrace}{13}{}%
+\contentsline {section}{\numberline {1.6}Диагностика процессов}{14}{}%
+\contentsline {chapter}{\numberline {2}Конструкторский раздел}{16}{}%
+\contentsline {section}{\numberline {2.1}Последовательность преобразований}{16}{}%
+\contentsline {section}{\numberline {2.2}Состав загружаемый модуль ядра}{17}{}%
+\contentsline {section}{\numberline {2.3}Структура \texttt {struct ftrace\_hook}}{17}{}%
+\contentsline {section}{\numberline {2.4}Алгоритм перехвата системного вызова}{19}{}%
+\contentsline {section}{\numberline {2.5}Скрытие файлы и каталоги}{21}{}%
+\contentsline {section}{\numberline {2.6}Скрытие сетевых сокетов}{24}{}%
+\contentsline {chapter}{\numberline {3}Технологический раздел}{26}{}%
+\contentsline {section}{\numberline {3.1}Выбор языка программирования и среды разработки}{26}{}%
+\contentsline {section}{\numberline {3.2}Некоторые моменты реализации}{26}{}%
+\contentsline {section}{\numberline {3.3}Апробация}{27}{}%
+\contentsline {chapter}{ЗАКЛЮЧЕНИЕ}{29}{}%
+\contentsline {chapter}{СПИСОК ИСПОЛЬЗОВАННЫХ ИСТОЧНИКОВ}{30}{}%
+\contentsline {chapter}{ПРИЛОЖЕНИЕ А}{31}{}%
